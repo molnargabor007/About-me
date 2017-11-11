@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by molnargabor007 (http://jsbin.com/fisoteb/20/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Frijole|Lobster|Oswald|Righteous" rel="stylesheet">
+<meta name="description" content="aboutme">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About me</title>
+<style id="jsbin-css">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row-reverse;
+  background: url("https://i.imgur.com/LE4KCK9.jpg") no-repeat center center fixed;
+  background-size: cover;
+  }
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.p-card{
+  background-color: rgba(250,250,250,.7);
+}
+
+
+.p-card {
+  width:400px;
+  max-width: calc(100vw - 10px);
+  min-width: 400px;
+  display:flex;
+  flex-direction: row;
+}
+
+.p-head{
+  width:45%;
+  margin:0 auto;
+  text-align:center;
+ }
+
+.content{
+  width:45%;
+  margin:auto auto;
+  text-align:justify;
+   }
+
+.about-me, .hastags{
+margin-bottom: 20%;
+}
+
+.p-name{
+  margin-top:10%;
+}
+
+.about-me{
+  height:60%;
+ }
+
+.hastags{
+  margin-top:15%;
+  width:100%;
+  height:7%;
+  text-align:center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-family:"Righteous", sans-serif;
+}
+
+
+.links{
+  margin-top:15%;
+  height:15%;
+  text-align:center;
+}
+
+img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.p-image{
+  margin-top: -60px;
+}
+
+p{
+  font-family:"Lobster", sans-serif;
+}
+h1{
+  font-size:120%;
+  font-family:"Oswald", sans-serif;
+}
+
+img:hover {
+  transition: all 2.5s ease-in-out;
+  transform: rotate(360deg);
+}
+
+</style>
+</head>
+<body>
+ <div class="p-card">
+   <div class="p-head">
+     <div class="p-image">
+      <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAeBAAAAJDE2YmJhNjE3LTI0ZTUtNDM5OC04MmUwLWFhN2Y5MWI2OGMzMg.jpg" alt="profile picture">
+     </div>
+      <div class="p-name">
+         <h1>Gábor Molnár</h1>
+           <h2>wannabe developer</h2>
+           <p>from</p>
+        <h3>  <i class="fa fa-map-marker"></i> Budapest, HU</h3>
+        <br>
+       <h2>Contact me via:</h2>
+        <p><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:+36307772557"> +36307772557</a></p>
+        <ul>
+          <li><a href="mailto:molnargab83@gmail.com"> <i class="fa fa-envelope  fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gabormolnar007/" target="_blank"><i class="fa fa-linkedin  fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/molnargabor007/" target="_blank"><i class="fa fa-github fa-2x"  aria-hidden="true"></i></a></li>
+         </ul>
+     </div>
+   </div>
+   <div class="content">
+      <div class="about-me">
+         <p>Hi my name is Gábor. Currently I am working as an accountant manager. My motivation is to find a profession where I can feel that I am building something, which is not only paperwork and monthly reports, but something more creative and useful. I think in coding I can find what I am looking for.</p>
+     </div>
+      <div class="hastags">
+       <ul>
+         <li><mark>#html</mark></li>
+         <li><mark>#css</mark></li>
+         <li><mark>#javascript</mark></li>
+         <li><mark>#java</mark></li>
+         <li><mark>#SQL</mark></li>
+         <li><mark>#GitHub</mark></li>
+      </ul>
+     </div>
+
+     </div>
+   </div>
+ </body>
+</html>
